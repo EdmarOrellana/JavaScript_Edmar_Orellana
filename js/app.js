@@ -227,10 +227,8 @@ var Calculadora = (function(){
           sl=ci+op+n;
           sol=eval(sl)
           pantalla.innerHTML=sol
-          n=sol;
-          op="no";
-          ni=1;
-           }
+          ci=sol;
+        }
         },
 
         borrarNumero: function(){
